@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Attenuare Lamp</title>
+</head>
+
+<body background="./img/background_off.jpg" id="wanted_background">
+    <header style=color:white class="align_title" id="title_project">
+        <h1>Attenuare's Lamp</h1>
+    </header>
+    <main class="align_items_page">
+        <div>
+            <img src="./img/lamp_off.png" alt="Attenuare's_Lamp" id="wanted_lamp">
+        </div>
+        <audio id="lamp_sound" src="./sound/click_lamp.mp3"></audio>
+        <audio id="broken_lamp" src="./sound/broken_lamp.mp3"></audio>
+        <audio id="repair_lamp" src="./sound/repair_lamp.mp3"></audio>
+        <label class="switch">
+            <input type="checkbox" id="lamp_switch">
+            <span class="slider round"></span>
+        </label>
+    </main>
+    <script src="./js/attenuare_lamp.js"></script>
+</body>
+
+</html>
